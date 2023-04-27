@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+}
+#site{
+    display: grid;
+
+
+    grid-template-areas: 
+        '  topo         topo   '
+        'principal    sugerido '
+        'principal    sugerido'
+        'principal    sugerido'
+
+    ;
+    width: 1000px;
+    margin: 200 auto;
+}
+
+#site div{ 
+    padding: 1em; 
+    text-align: center;
+}
+
+
+#topo{
+    background-color: rgb(250, 213, 112);
+    grid-area: topo;
+    height: 50px;
+    width: 1850px;
+}
+
+#principal{
+    background-color: rgb(240, 178, 127);
+    grid-area: principal;
+    height: 1400px;
+    width: 1263.3px;
+}
+
+
+#video{
+    background-color: rgb(199, 132, 111);
+    grid-area: video;
+    height: 600px;
+    width: 1200px;
+}
+
+#titulo{
+    background-color: rgb(231, 150, 103);
+    grid-area: titulo;
+    height: 80px;
+    width: 1200px;
+}
+
+#descricao{
+    background-color: rgba(243, 211, 123, 0.774);
+    grid-area: descricao;
+    height: 150px;
+    width: 1200px;
+}
+
+#comentario{
+    background-color: rgb(192, 143, 110);
+    grid-area: principal;
+    height: 440px;
+    width: 1200px;
+}
+
+#sugerido{
+    background-color: #c8c2cf;
+    grid-area: sugerido;
+    height: 1400px;
+    width: 555px;
+    margin: 3;
+}
+
+.video_sugerido{
+    display: grid;
+    background-color: #ada8bb;
+    border: 2px solid #464b58;
+    height: 100px;
+    width: 520px;
+}
+
+.video{
+    display: grid;
+    background-color: rgb(147, 144, 165);
+    margin-top: -15px;
+    margin-left: -17px;
+    height: 99px;
+    width: 200px;
+}
+
+.comentario_video{
+    display: grid;
+    background-color: rgb(250, 209, 158);
+    margin-top: -4px;
+    margin-left: -4px;
+    border: 2px solid rgb(211, 115, 70);
+    height: 80px;
+    width: 1170px;
+}
+
+.foto {
+    display: grid;
+    margin-top: -16px;
+    margin-left: -16px;
+    background-color: rgb(248, 193, 126);
+    height: 77px;
+    width: 40px;
+}
